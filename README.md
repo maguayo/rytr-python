@@ -7,6 +7,12 @@ Enviroment:
 RYTR_API_KEY=XXXX
 ```
 
+## Install
+
+```bash
+pip install rytr
+```
+
 
 ## Languages
 
