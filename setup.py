@@ -17,6 +17,7 @@ setup(
     url="https://marcosaguayo.com/",
     description="Python package for RYTR",
     long_description=read("README.md"),
+    long_description_content_type="text/markdown",
     download_url="https://github.com/maguayo/rytr-python",
     packages=find_packages(),
     classifiers=[

@@ -2,7 +2,7 @@
 
 Before using the library, create an enviroment variable with your Rytr API KEY.
 
-```
+```bash
 Enviroment:
 RYTR_API_KEY=XXXX
 ```
@@ -10,7 +10,7 @@ RYTR_API_KEY=XXXX
 
 ## Languages
 
-```
+```python
 from rytr.languages import Languages
 
 Languages.list()
@@ -21,7 +21,7 @@ Languages.find_by_slug('english')
 ```
 
 ## Tones
-```
+```python
 from rytr.tones import Tones
 
 Tones.list()
@@ -33,7 +33,7 @@ Tones.find_by_slug('enthusiastic')
 
 ## Use-case
 
-```
+```python
 from rytr.tones import Tones
 
 UseCases.list()
@@ -48,7 +48,7 @@ UseCases.get(id="611e2a98045b460ef10242ce")
 
 ## Content
 
-```
+```python
 from rytr.usecases import UseCases
 from rytr.content import Content
 
